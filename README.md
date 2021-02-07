@@ -7,4 +7,11 @@ This project consists of deep learning framework to build a stack autoencoder.He
 - Usage of Tensorflow/Keras A.P.I
 - Cuda install necessary
 
-
+# Prerequisites
+- Python,
+- NumPy, 
+- SciPy, 
+- Matplotlib
+- TensorFlow
+- Keras
+- Cuda
