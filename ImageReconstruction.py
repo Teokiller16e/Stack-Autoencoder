@@ -38,7 +38,7 @@ datagen = ImageDataGenerator(rotation_range=40, width_shift_range=0.2, height_sh
 datagen.fit(x_train)
 
 # Assigning the model.fit to history variable for plotting the acc/loss of the model:
-history = finalModel.fit(x_train, x_train, batch_size=32, epochs=10, validation_split=0.5, validation_data=(x_test, x_test))
+history = finalModel.fit(x_train, y_train, batch_size=32, epochs=10, validation_split=0.5, validation_data=(x_test, x_test))
 
 # Final Accuracy
 scores = finalModel.evaluate(x_test, x_test, batch_size=32)
